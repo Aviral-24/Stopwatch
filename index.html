@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StopWatch</title>
+    <title>Stop Watch</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h2>Stop Watch</h2>
+    
 
-    <div class="container">
-    <h2>StopWatch</h2>
+    <div class="stopwatch-container">
 
-    <div class="timer">00:00:00</div>
-
-    <div class="buttons">
-    <button class="Start">Start</button>
-    <button class="Stop">Stop</button>
-    <button class="Reset">Reset</button>
-</div>
-</div>
+        <h2>00:00:00</h2>
+        <button onclick="startwatch()" class="startwatch">Start</button>
+    
+        <button onclick="stopwatch()" class="stopwatch">Stop</button><br>
+        <br>
+        <button onclick="resetwatch()" class="resetwatch">Reset</button>
+    </div>
+    
 
     <script src="app.js"></script>
-    
 </body>
 </html>

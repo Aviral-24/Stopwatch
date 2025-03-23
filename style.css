@@ -1,80 +1,48 @@
-
-
-
 body {
-    background-image: url(Lines.png);
-
-}
-
-.container {
     text-align: center;
-    margin-top: 150px;
-}
-h2 {
-    text-align: center;
-    padding-top: 250px;
-
+    height: 100vh;
+    margin-top: 250px;
 }
 
-.timer {
-    font-size: 50px;
-    font-weight: bold;
-    background: #222;
-    color: white;
-    display: inline-block;
-    padding: 20px 40px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+.stopwatch-container {
+    border: 10px solid deeppink;
+    border-radius: 300px;
+    background: darkgrey;
+    width: 130px;
+    height: 140px;
+    margin: auto;
+}
+.stopwatch-container:hover{
+    transform: matrix3d(1.8);
+    color: darkred;
 }
 
-/* Buttons container */
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 29px;
+.stopwatch {
+    margin: auto;
 }
 
-.Start {
-        margin-left: 5px;
-    background: bisque;
-    width: 5vh;
-    height: 5vh;
-}
-
-.Start:hover {
-    transform: scale(1.4);
-    background: blue;
-}
-
-
-.Stop {
-    padding: 10px;
-    margin-left: 20px;
-    background: bisque;
-    width: 5vh;
-    height: 5vh;
-}
-
-
-.Stop:hover {
-    transform: scale(1.4);
-
+.stopwatch:hover {
+    transform: matrix(1.9);
     background: red;
 }
 
-
-.Reset {
-    padding: 2px;
-    margin-left: 20px;
-    margin-bottom: 200px;    
-    background: bisque;
-    width: 5vh;
-    height: 5vh;
-
+.startwatch {
+    margin: auto;
 }
 
-.Reset:hover {
-    transform: scale(1.4);
-
-    background: whitesmoke;
+.startwatch:hover {
+    transform: matrix(1.9);
+    background: blueviolet;
 }
+
+.resetwatch {
+    margin:auto;
+}
+
+.resetwatch:hover {
+    transform: matrix(1.9);
+    background: green;
+}
+
+
+
